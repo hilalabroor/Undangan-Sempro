@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Sempro - Special Day! ✨</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        <div class="cover-content">
+            <h1 class="bounce">✨ You're Invited! ✨</h1>
+            <p>Seminar Proposal</p>
+            <h2>Kanjeng Ratu Orchid</h2>
+            <button onclick="bukaUndangan()">Buka Undangan 💌</button>
+        </div> 
+    -->
+
+
+    <div id="cover-page" class="cover-page">
+        <div class="cover-content">
+            <div class="envelope-icon">💌</div>
+            <h2>✨ You're Invited! ✨</h2>
+            <p>Seminar Proposal</p>
+            <!-- <p>Kepada Yth. Tamu Undangan</p> -->
+            <button id="open-btn" class="open-btn">Buka Undangan 💌</button>
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="musik.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="musicControl" class="music-fab">
+        <span id="musicIcon">🎵</span>
+    </div>
+
+    <div class="decorations">
+        <span class="sticker s1">💙</span>
+        <span class="sticker s2">✨</span>
+        <span class="sticker s3">🎓</span>
+        <span class="sticker s4">🎉</span>
+        <span class="sticker s5">🍰</span>
+    </div>
+
+    <main class="container">
+        <header class="hero-section">
+            <div class="profile-frame">
+                <img src="opening.png" alt="Klien Cantik" class="profile-img">
+                <span class="crown">👑</span>
+            </div>
+            <h1 class="title">Seminar Proposal</h1>
+            <p class="subtitle">Road to S.Pd.🎓</p>
+        </header>
+
+        <section class="card info-card">
+            <div class="ribbon">SAVE THE DATE</div>
+            <div class="card-content">
+                <h2 class="client-name">Orchida Dwi Kinta Ayu</h2>
+                <hr class="divider">
+                <p><strong>📅 Jum'at, 17 April 2026</strong></p>
+                <p><strong>⏰ 09:30 - Selesai< /strong></p>
+                <p><strong>📍 Pascasarjana samping Gedung SBSN </strong></p>
+            </div>
+            <div class="quote">
+                "Sempro dulu, bahagia kemudian..." 🎶
+            </div>
+        </section>
+
+        <section class="album-section">
+            <h3 class="album-title">📸</h3>
+            <div class="album-grid">
+                <div class="polaroid p1">
+                    <img src="foto1.png" alt="Foto 1">
+                    <p class="caption">Harus healing yaa... ✨</p>
+                </div>
+                <div class="polaroid p2">
+                    <img src="foto2.png" alt="Foto 2">
+                    <p class="caption">Kalo udah cape obatnya itu pulang 😭</p>
+                </div>
+                <div class="polaroid p3">
+                    <img src="foto3.png" alt="Foto 3">
+                    <p class="caption">Banyak makan biar semangat 🍛</p>
+                </div>
+                <div class="polaroid p4">
+                    <img src="foto4.png" alt="Foto 4">
+                    <p class="caption">Pusinggg 😵</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Harus Dateng Yaaa....</p>
+            <div class="social-icons">✨ 💙 ✨</div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
