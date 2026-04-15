@@ -1,10 +1,10 @@
 :root {
-    --primary-blue: #A2D2FF;
-    --soft-blue: #BDE0FE;
-    --deep-blue: #4A90E2;
+    --primary-blue: #FF4D6D;
+    --soft-blue: #FFD6DD;
+    --deep-blue: #C9184A;
     --white: #FFFFFF;
-    --cream: #FEF9EF;
-    --text-color: #555B6E;
+    --cream: #FFF0F3;
+    --text-color: #5C5C5C;
 }
 
 * {
@@ -238,7 +238,7 @@ body {
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-    border: 3px dashed #64B5F6;
+    border: 3px dashed #FF4D6D;;
     max-width: 90%;
     width: 350px;
     animation: popIn 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);

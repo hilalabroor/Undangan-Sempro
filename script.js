@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!isPlaying) {
             music.play();
             musicBtn.classList.add('playing');
-            musicIcon.innerText = '⏸️';
+            musicIcon.innerText = '❚❚';
             isPlaying = true;
         }
     });
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!isPlaying) {
             music.play();
             musicBtn.classList.add('playing');
-            musicIcon.innerText = '⏸️';
+            musicIcon.innerText = '❚❚';
         } else {
             music.pause();
             musicBtn.classList.remove('playing');
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.closest('#cover-page')) return;
 
         const heart = document.createElement('div');
-        heart.innerHTML = '💙';
+        heart.innerHTML = '❤️';
         heart.style.position = 'absolute';
         heart.style.left = e.pageX + 'px';
         heart.style.top = e.pageY + 'px';
